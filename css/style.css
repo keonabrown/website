@@ -1,12 +1,33 @@
-body{background-image: url("http://www.hofmag.com/wp-content/uploads/2017/03/15977305_1827091310892521_167999835537112330_n-1000x600.jpg");
+body{background-image: url("../getout.jpg");
 } 
 
-h1   {color:red;}
-p    {color:red;}
-h2{color:red;}
+h1   {color:firebrick;
+clear:both;}
+p    {color:darkslategrey;}
+h2{color:firebrick;}
 
-  
+#main{ clear:both;}
 
-td{color:red;}
-th{color:red;}
+td{color:firebrick;}
+th{color:firebrick;}
 p{font-size: 18px;}
+
+ul{ list-style: none;
+display:block;
+clear:both;}
+
+li{float: left;
+    margin: 10px;
+    border:1px solid black;
+    padding:10px;
+    
+    
+}
+li a{ color:firebrick;}
+li a:hover{ color:blue;}
+th{float:none;
+margin:10px;
+border:1px solid black;
+padding:10px;}
+
+
